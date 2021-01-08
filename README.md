@@ -1,2 +1,2 @@
 # Rosalind
-http://rosalind.info/problems/locations/
+http://rosalind.info/
