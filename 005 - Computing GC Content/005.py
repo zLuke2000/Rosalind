@@ -1,10 +1,7 @@
 import os
 
 f = open((os.path.dirname(__file__) + '\\fasta.fas'), 'r')
-inputNum = []
 temp = f.readlines()
-#temp = temp.replace('\n', '')
-#temp = temp.split(">")
 f.close()
 
 index = []
