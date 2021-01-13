@@ -11,4 +11,12 @@ for c in dna:
         conteggio[2] += 1
     if(c == 'T'):
         conteggio[3] += 1
-print(conteggio)
+print(conteggio[0], conteggio[1], conteggio[2], conteggio[3])
+
+""" OPPURE """
+
+conteggio[0] = dna.count('A')
+conteggio[1] = dna.count('C')
+conteggio[2] = dna.count('G')
+conteggio[3] = dna.count('T')
+print(conteggio[0], conteggio[1], conteggio[2], conteggio[3])
