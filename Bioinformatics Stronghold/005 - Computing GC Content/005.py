@@ -27,7 +27,6 @@ dna = []
 for i in range(len(index)):
     i = index[i]
     dna.append((temp[i], temp[i+1]))
-    dna
 
 GCpercentageList = []
 for n in dna:
